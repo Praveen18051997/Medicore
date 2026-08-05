@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1440 900" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0" />
+    </linearGradient>
+    <radialGradient id="glowPoint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="150" r="300" fill="url(#glowPoint)" />
+  <circle cx="1200" cy="750" r="400" fill="url(#glowPoint)" />
+
+  <!-- Organic Fluid Wave 1 -->
+  <path d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,165.3C672,160,768,192,864,213.3C960,235,1056,245,1152,224C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="url(#waveGrad1)" />
+
+  <!-- Organic Fluid Wave 2 -->
+  <path d="M0,640L60,618.7C120,597,240,555,360,560C480,565,600,619,720,640C840,661,960,651,1080,618.7C1200,587,1320,533,1380,506.7L1440,480L1440,900L1380,900C1320,900,1200,900,1080,900C960,900,840,900,720,900C600,900,480,900,360,900C240,900,120,900,60,900L0,900Z" fill="url(#waveGrad2)" />
+
+  <!-- EKG Pulse Heartbeat Line -->
+  <path d="M 0 450 Q 200 450, 350 450 L 370 420 L 390 490 L 415 360 L 440 510 L 465 435 L 485 450 L 1440 450" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.12" stroke-dasharray="8 4" />
+
+  <!-- Floating Tech Nodes & Medical Cross Accent Symbols -->
+  <g fill="#06b6d4" opacity="0.12">
+    <circle cx="150" cy="320" r="4" />
+    <circle cx="320" cy="180" r="3" />
+    <circle cx="680" cy="280" r="5" />
+    <circle cx="1100" cy="380" r="4" />
+    <circle cx="1300" cy="220" r="3" />
+    <circle cx="950" cy="650" r="4" />
+    <circle cx="450" cy="720" r="5" />
+  </g>
+
+  <!-- Connected Constellation Lines -->
+  <path d="M150 320 L320 180 M680 280 L950 650 M1100 380 L1300 220" stroke="#06b6d4" stroke-width="0.8" opacity="0.08" stroke-dasharray="4 4" />
+</svg>
