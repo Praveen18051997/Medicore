@@ -23,7 +23,7 @@ export default function Logo({ size = 'md', collapsed = false, className = '' })
           <span className={`${textSizes[size]} font-black tracking-tight bg-gradient-to-r from-primary-600 via-accent-500 to-primary-500 bg-clip-text text-transparent`}>
             MediCore
           </span>
-          <span className="text-[10px] font-bold text-surface-400 dark:text-surface-500 uppercase tracking-widest -mt-1">
+          <span className="text-[10px] font-extrabold text-surface-500 dark:text-surface-400 uppercase tracking-widest -mt-1">
             DNA & Health Tech
           </span>
         </div>
